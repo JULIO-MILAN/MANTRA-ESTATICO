@@ -1,0 +1,5 @@
+[
+  {"id_mensaje": 1, "id_conversacion": 1, "id_emisor": 2, "contenido": "¿Vas a la Neon Party?", "fecha_envio": "2026-06-22 21:18:20", "leido": true},
+  {"id_mensaje": 2, "id_conversacion": 1, "id_emisor": 4, "contenido": "Sí claro", "fecha_envio": "2026-06-22 21:18:20", "leido": true},
+  {"id_mensaje": 3, "id_conversacion": 2, "id_emisor": 2, "contenido": "Nos vemos en Summer Festival", "fecha_envio": "2026-06-22 21:18:20", "leido": false}
+]

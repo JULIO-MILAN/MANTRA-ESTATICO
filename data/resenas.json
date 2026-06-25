@@ -1,0 +1,7 @@
+[
+  {"id_resena": 1, "calificacion": 5, "comentario": "La mejor fiesta del año", "fecha_publicacion": "2026-07-11", "id_evento": 1, "id_participante": 2},
+  {"id_resena": 2, "calificacion": 4, "comentario": "Muy buen ambiente", "fecha_publicacion": "2026-07-16", "id_evento": 2, "id_participante": 5},
+  {"id_resena": 3, "calificacion": 5, "comentario": "Excelente organización", "fecha_publicacion": "2026-08-02", "id_evento": 5, "id_participante": 6},
+  {"id_resena": 4, "calificacion": 5, "comentario": "Increíble experiencia", "fecha_publicacion": "2026-08-09", "id_evento": 6, "id_participante": 7},
+  {"id_resena": 5, "calificacion": 4, "comentario": "Muy recomendable", "fecha_publicacion": "2026-09-11", "id_evento": 10, "id_participante": 10}
+]

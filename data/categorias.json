@@ -1,0 +1,10 @@
+[
+  {"id_categoria": 1, "nombre_cat": "Fiestas"},
+  {"id_categoria": 2, "nombre_cat": "Conciertos"},
+  {"id_categoria": 3, "nombre_cat": "Festivales"},
+  {"id_categoria": 4, "nombre_cat": "Antros"},
+  {"id_categoria": 5, "nombre_cat": "After Party"},
+  {"id_categoria": 6, "nombre_cat": "Networking"},
+  {"id_categoria": 7, "nombre_cat": "Universitarios"},
+  {"id_categoria": 8, "nombre_cat": "VIP"}
+]

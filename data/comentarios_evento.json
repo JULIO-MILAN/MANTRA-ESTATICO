@@ -1,0 +1,5 @@
+[
+  {"id_comentario": 1, "comentario": "¿Hay código de vestimenta?", "fecha_publicacion": "2026-07-02", "id_evento": 1, "id_participante": 2},
+  {"id_comentario": 2, "comentario": "Yo también voy", "fecha_publicacion": "2026-07-03", "id_evento": 1, "id_participante": 4},
+  {"id_comentario": 3, "comentario": "Va a estar increíble", "fecha_publicacion": "2026-07-04", "id_evento": 2, "id_participante": 5}
+]

@@ -1,0 +1,13 @@
+[
+  {"id_evento": 1, "titulo": "Neon Party CDMX", "fecha": "2026-07-10", "hora": "22:00:00", "calle": "Reforma 100", "ciudad": "Ciudad de México", "imagen_url": null, "id_organizador": 3},
+  {"id_evento": 2, "titulo": "Summer Festival", "fecha": "2026-07-15", "hora": "18:00:00", "calle": "Parque Bicentenario", "ciudad": "Ciudad de México", "imagen_url": null, "id_organizador": 3},
+  {"id_evento": 3, "titulo": "Noche Reggaeton", "fecha": "2026-07-20", "hora": "23:00:00", "calle": "Zona Rosa", "ciudad": "Ciudad de México", "imagen_url": null, "id_organizador": 6},
+  {"id_evento": 4, "titulo": "Pool Party VIP", "fecha": "2026-07-25", "hora": "14:00:00", "calle": "Bosques", "ciudad": "Ciudad de México", "imagen_url": null, "id_organizador": 9},
+  {"id_evento": 5, "titulo": "After Techno", "fecha": "2026-08-01", "hora": "01:00:00", "calle": "Polanco", "ciudad": "Ciudad de México", "imagen_url": null, "id_organizador": 3},
+  {"id_evento": 6, "titulo": "Festival Eclipse", "fecha": "2026-08-08", "hora": "19:00:00", "calle": "Foro Sol", "ciudad": "Ciudad de México", "imagen_url": null, "id_organizador": 10},
+  {"id_evento": 7, "titulo": "White Party", "fecha": "2026-08-15", "hora": "21:00:00", "calle": "Santa Fe", "ciudad": "Ciudad de México", "imagen_url": null, "id_organizador": 6},
+  {"id_evento": 8, "titulo": "Noche Latina", "fecha": "2026-08-22", "hora": "22:30:00", "calle": "Coyoacán", "ciudad": "Ciudad de México", "imagen_url": null, "id_organizador": 9},
+  {"id_evento": 9, "titulo": "Urban Beats", "fecha": "2026-09-01", "hora": "17:00:00", "calle": "Fundidora", "ciudad": "Monterrey", "imagen_url": null, "id_organizador": 3},
+  {"id_evento": 10, "titulo": "Fiesta Universitaria", "fecha": "2026-09-10", "hora": "20:00:00", "calle": "Centro", "ciudad": "Puebla", "imagen_url": null, "id_organizador": 10},
+  {"id_evento": 11, "titulo": "ENANITOS FEST", "fecha": "2026-06-18", "hora": "19:07:00", "calle": "ssqjnehuwd", "ciudad": "AJSJKA", "imagen_url": "https://res.cloudinary.com/dkrubq7db/image/upload/v1782169541/mantra/eventos/ngpkvbyicn61utgcqrow.jpg", "id_organizador": 6}
+]

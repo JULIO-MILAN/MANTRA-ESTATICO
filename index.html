@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MANTRA | Eventos</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:
+linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.85)),
+url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1920');
+background-size:cover;
+background-position:center;
+min-height:100vh;
+overflow-x:hidden;
+color:white;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 8%;
+position:absolute;
+top:0;
+width:100%;
+z-index:100;
+}
+
+.logo{
+font-size:2rem;
+font-weight:700;
+color:#00BFFF;
+letter-spacing:2px;
+}
+
+.login-btn{
+padding:12px 28px;
+border:none;
+border-radius:50px;
+background:#00BFFF;
+color:white;
+font-weight:600;
+cursor:pointer;
+transition:.3s;
+}
+
+.login-btn:hover{
+transform:translateY(-3px);
+box-shadow:0 10px 30px rgba(0,191,255,.3);
+}
+
+.hero{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding:100px 30px;
+text-align:center;
+}
+
+.hero h1{
+font-size:4rem;
+font-weight:700;
+max-width:900px;
+line-height:1.1;
+margin-bottom:20px;
+}
+
+.hero span{
+color:#00BFFF;
+}
+
+.hero p{
+font-size:1.2rem;
+color:#ddd;
+max-width:700px;
+margin-bottom:60px;
+}
+
+.roles{
+display:flex;
+gap:40px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.card{
+width:360px;
+backdrop-filter:blur(20px);
+background:rgba(255,255,255,.08);
+border:1px solid rgba(255,255,255,.1);
+border-radius:30px;
+padding:40px;
+transition:.4s;
+box-shadow:0 10px 30px rgba(0,0,0,.3);
+}
+
+.card:hover{
+transform:translateY(-10px);
+border:1px solid rgba(0,191,255,.4);
+}
+
+.card h2{
+font-size:2rem;
+margin-bottom:15px;
+}
+
+.card p{
+font-size:1rem;
+color:#ccc;
+margin-bottom:30px;
+}
+
+.card button{
+width:100%;
+padding:15px;
+border:none;
+border-radius:18px;
+background:#00BFFF;
+color:white;
+font-size:1rem;
+font-weight:600;
+cursor:pointer;
+transition:.3s;
+}
+
+.card button:hover{
+transform:scale(1.03);
+}
+
+.modal{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.75);
+display:none;
+justify-content:center;
+align-items:center;
+z-index:999;
+}
+
+.modal-content{
+width:95%;
+max-width:450px;
+background:#101010;
+padding:35px;
+border-radius:30px;
+position:relative;
+animation:fade .3s ease;
+}
+
+@keyframes fade{
+from{
+opacity:0;
+transform:translateY(-20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+.close{
+position:absolute;
+top:20px;
+right:25px;
+font-size:1.8rem;
+cursor:pointer;
+}
+
+.modal-content h2{
+margin-bottom:20px;
+}
+
+.input-group{
+margin-bottom:20px;
+}
+
+.input-group input{
+width:100%;
+padding:16px;
+border:none;
+border-radius:14px;
+background:#1e1e1e;
+color:white;
+font-size:1rem;
+outline:none;
+}
+
+.submit-btn{
+width:100%;
+padding:16px;
+border:none;
+border-radius:16px;
+background:#00BFFF;
+font-size:1rem;
+font-weight:600;
+color:white;
+cursor:pointer;
+}
+
+.error{
+margin-top:15px;
+text-align:center;
+color:#ff4d4d;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:2.6rem;
+}
+
+.roles{
+flex-direction:column;
+align-items:center;
+}
+
+.card{
+width:100%;
+max-width:360px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav class="navbar">
+<div class="logo">MANTRA</div>
+<button class="login-btn" onclick="openLogin()">
+Iniciar Sesión
+</button>
+</nav>
+
+<section class="hero">
+
+<h1>
+Encuentra eventos que conecten con tu
+<span>vibra</span>
+</h1>
+
+<p>
+Descubre conciertos, festivales y experiencias
+personalizadas según tus gustos.
+O publica tus propios eventos y haz crecer tu comunidad.
+</p>
+
+<div class="roles">
+
+<div class="card">
+<h2>🎟 Asistidor</h2>
+<p>
+Explora eventos, recibe recomendaciones,
+califica experiencias y encuentra eventos
+según tus gustos.
+</p>
+
+<button onclick="openRegister('asistidor')">
+Registrarme
+</button>
+</div>
+
+<div class="card">
+<h2>🎤 Organizador</h2>
+<p>
+Publica eventos, analiza estadísticas,
+crea tu comunidad y haz crecer tu alcance.
+</p>
+
+<button onclick="openRegister('organizador')">
+Registrarme
+</button>
+</div>
+
+</div>
+
+</section>
+
+<!-- LOGIN -->
+<div class="modal" id="loginModal">
+
+<div class="modal-content">
+
+<span class="close" onclick="closeModal()">
+×
+</span>
+
+<h2>Iniciar Sesión</h2>
+
+<form id="loginForm">
+
+<div class="input-group">
+<input
+type="email"
+id="email"
+placeholder="Correo electrónico"
+required
+>
+</div>
+
+<div class="input-group">
+<input
+type="password"
+id="password"
+placeholder="Contraseña"
+required
+>
+</div>
+
+<button class="submit-btn" type="submit">
+Entrar
+</button>
+
+<p class="error" id="errorMsg"></p>
+
+</form>
+
+</div>
+</div>
+
+<script src="data-layer.js"></script>
+<script>
+
+function openLogin(){
+document.getElementById('loginModal').style.display='flex';
+}
+
+function closeModal(){
+document.getElementById('loginModal').style.display='none';
+}
+
+function openRegister(rol){
+
+if(rol === 'asistidor'){
+
+window.location.href =
+'registro-asistidor.html';
+
+}else{
+
+window.location.href =
+'registro-organizador.html';
+
+}
+
+}
+
+document
+.getElementById('loginForm')
+.addEventListener('submit', async(e)=>{
+
+e.preventDefault();
+
+const email =
+document.getElementById('email').value;
+
+const password =
+document.getElementById('password').value;
+
+const errorMsg =
+document.getElementById('errorMsg');
+
+try{
+
+const data =
+await DataLayer.login(email, password);
+
+if(!data.ok){
+
+errorMsg.innerText =
+data.error ||
+'Credenciales incorrectas';
+
+return;
+
+}
+
+
+
+
+localStorage.setItem(
+'usuarioMantra',
+JSON.stringify(data.usuario)
+);
+
+
+
+if(data.usuario.rol === 'owner'){
+
+window.location.href =
+'usuario-db.html';
+
+}else if(
+data.usuario.rol === 'organizador'
+){
+
+window.location.href =
+'dashboard-organizador.html';
+
+}else{
+
+window.location.href =
+'feed-eventos.html';
+
+}
+
+}catch(error){
+
+console.error(error);
+
+errorMsg.innerText =
+'Error de conexión';
+
+}
+
+});
+</script>
+
+</body>
+</html>

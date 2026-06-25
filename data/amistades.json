@@ -1,0 +1,6 @@
+[
+  {"id_usuario_1": 2, "id_usuario_2": 4, "estado": "aceptada", "fecha_solicitud": "2026-07-01"},
+  {"id_usuario_1": 2, "id_usuario_2": 5, "estado": "aceptada", "fecha_solicitud": "2026-07-02"},
+  {"id_usuario_1": 4, "id_usuario_2": 6, "estado": "aceptada", "fecha_solicitud": "2026-07-03"},
+  {"id_usuario_1": 5, "id_usuario_2": 7, "estado": "pendiente", "fecha_solicitud": "2026-07-04"}
+]

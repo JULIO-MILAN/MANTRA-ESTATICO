@@ -1,0 +1,13 @@
+[
+  {"id_evento": 1, "id_categoria": 1},
+  {"id_evento": 2, "id_categoria": 3},
+  {"id_evento": 3, "id_categoria": 2},
+  {"id_evento": 4, "id_categoria": 8},
+  {"id_evento": 5, "id_categoria": 5},
+  {"id_evento": 6, "id_categoria": 3},
+  {"id_evento": 7, "id_categoria": 8},
+  {"id_evento": 8, "id_categoria": 2},
+  {"id_evento": 9, "id_categoria": 3},
+  {"id_evento": 10, "id_categoria": 7},
+  {"id_evento": 11, "id_categoria": 2}
+]

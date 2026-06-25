@@ -1,0 +1,13 @@
+{
+  "name": "mantra-estatico",
+  "version": "2.0.0",
+  "description": "MANTRA - Plataforma estática para GitHub Pages (sin backend)",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'Abre index.html en tu navegador o publica en GitHub Pages'"
+  },
+  "keywords": ["eventos", "comunidad", "github-pages", "static"],
+  "author": "Julio Milan y Armenta Misael",
+  "license": "MIT",
+  "note": "Este proyecto ya no requiere Node.js. Los archivos index.js y package.json originales se mantienen solo como referencia histórica."
+}

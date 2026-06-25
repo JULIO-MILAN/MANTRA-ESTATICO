@@ -1,0 +1,10 @@
+[
+  {"id_publicacion": 1, "contenido": "¿Quién irá a Neon Party?", "fecha_publicacion": "2026-07-01", "imagen_url": null, "id_usuario": 2, "id_evento": 1},
+  {"id_publicacion": 2, "contenido": "Summer Festival promete mucho 🔥", "fecha_publicacion": "2026-07-05", "imagen_url": null, "id_usuario": 4, "id_evento": 2},
+  {"id_publicacion": 3, "contenido": "Ya tengo mis boletos", "fecha_publicacion": "2026-07-15", "imagen_url": null, "id_usuario": 5, "id_evento": 6},
+  {"id_publicacion": 4, "contenido": "Nos vemos en White Party", "fecha_publicacion": "2026-08-01", "imagen_url": null, "id_usuario": 7, "id_evento": 7},
+  {"id_publicacion": 5, "contenido": "Latino Night se ve brutal", "fecha_publicacion": "2026-08-05", "imagen_url": null, "id_usuario": 8, "id_evento": 8},
+  {"id_publicacion": 6, "contenido": "husjajas", "fecha_publicacion": "2026-06-22", "imagen_url": "https://res.cloudinary.com/dkrubq7db/image/upload/v1782163444/mantra/comunidad/xttfxwrzeuqixd0jurkr.jpg", "id_usuario": 11, "id_evento": null},
+  {"id_publicacion": 7, "contenido": "husjajas", "fecha_publicacion": "2026-06-22", "imagen_url": "https://res.cloudinary.com/dkrubq7db/image/upload/v1782163444/mantra/comunidad/uzlj6cxjsesinudbozax.jpg", "id_usuario": 11, "id_evento": null},
+  {"id_publicacion": 8, "contenido": "pruena", "fecha_publicacion": "2026-06-22", "imagen_url": "https://res.cloudinary.com/dkrubq7db/image/upload/v1782163465/mantra/comunidad/kwrobhxj8b0v0turf8py.png", "id_usuario": 11, "id_evento": null}
+]

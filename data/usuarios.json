@@ -1,0 +1,14 @@
+[
+  {"id_usuario": 1, "nombre": "Owner MANTRA", "email": "owner@mantra.com", "password": "123456", "edad": 30, "biografia": "Administrador", "foto_perfil": null, "solo_lectura": false},
+  {"id_usuario": 2, "nombre": "Julio Milan", "email": "julio@mantra.com", "password": "123456", "edad": 21, "biografia": "Me gustan las fiestas electrónicas", "foto_perfil": null, "solo_lectura": false},
+  {"id_usuario": 3, "nombre": "Andrea Ruiz", "email": "andrea@mantra.com", "password": "123456", "edad": 22, "biografia": "Organizadora de eventos", "foto_perfil": null, "solo_lectura": false},
+  {"id_usuario": 4, "nombre": "Carlos Pérez", "email": "carlos@mantra.com", "password": "123456", "edad": 23, "biografia": "Fan del reggaeton", "foto_perfil": null, "solo_lectura": false},
+  {"id_usuario": 5, "nombre": "Fernanda Soto", "email": "fernanda@mantra.com", "password": "123456", "edad": 21, "biografia": "Siempre buscando festivales", "foto_perfil": null, "solo_lectura": false},
+  {"id_usuario": 6, "nombre": "Luis Torres", "email": "luis@mantra.com", "password": "123456", "edad": 24, "biografia": "DJ amateur", "foto_perfil": null, "solo_lectura": false},
+  {"id_usuario": 7, "nombre": "Sofía Morales", "email": "sofia@mantra.com", "password": "123456", "edad": 22, "biografia": "Me encantan los conciertos", "foto_perfil": null, "solo_lectura": false},
+  {"id_usuario": 8, "nombre": "Miguel Herrera", "email": "miguel@mantra.com", "password": "123456", "edad": 25, "biografia": "Fan de la música electrónica", "foto_perfil": null, "solo_lectura": false},
+  {"id_usuario": 9, "nombre": "Valeria Díaz", "email": "valeria@mantra.com", "password": "123456", "edad": 21, "biografia": "Organizadora de experiencias VIP", "foto_perfil": null, "solo_lectura": false},
+  {"id_usuario": 10, "nombre": "Ricardo López", "email": "ricardo@mantra.com", "password": "123456", "edad": 27, "biografia": "Promotor de eventos", "foto_perfil": null, "solo_lectura": false},
+  {"id_usuario": 11, "nombre": "Milan Ewok", "email": "milan.ewok@gmail.com", "password": "Julio121086", "edad": 22, "biografia": "Cuenta de prueba", "foto_perfil": null, "solo_lectura": true},
+  {"id_usuario": 12, "nombre": "User Organizador", "email": "user5@example.com", "password": "pass5", "edad": 25, "biografia": "Cuenta organizador de prueba", "foto_perfil": null, "solo_lectura": true}
+]

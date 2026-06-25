@@ -1,0 +1,14 @@
+[
+  {"id_participante": 2, "id_evento": 1},
+  {"id_participante": 2, "id_evento": 2},
+  {"id_participante": 2, "id_evento": 5},
+  {"id_participante": 4, "id_evento": 1},
+  {"id_participante": 4, "id_evento": 3},
+  {"id_participante": 5, "id_evento": 2},
+  {"id_participante": 5, "id_evento": 6},
+  {"id_participante": 6, "id_evento": 5},
+  {"id_participante": 7, "id_evento": 6},
+  {"id_participante": 8, "id_evento": 7},
+  {"id_participante": 9, "id_evento": 4},
+  {"id_participante": 10, "id_evento": 10}
+]
