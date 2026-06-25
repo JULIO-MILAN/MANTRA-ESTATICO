@@ -131,20 +131,12 @@ La estructura de datos se organiza en archivos JSON dentro de la carpeta `data/`
 
 # 🔐 Credenciales de Prueba
 
-## Owner (Administrador)
-- **Email:** owner@mantra.com
-- **Password:** 123456
+## Organizador
+- **Email:** user@example.com / **Password:** pass5
 
-## Organizadores
-- **Email:** andrea@mantra.com / **Password:** 123456
-- **Email:** valeria@mantra.com / **Password:** 123456
-- **Email:** ricardo@mantra.com / **Password:** 123456
 
 ## Asistentes
-- **Email:** julio@mantra.com / **Password:** 123456
-- **Email:** carlos@mantra.com / **Password:** 123456
-- **Email:** fernanda@mantra.com / **Password:** 123456
-
+- **Email:** milan.ewok@gmail.com / **Password:** Julio121086
 ---
 
 # 📱 Capturas de Pantalla
