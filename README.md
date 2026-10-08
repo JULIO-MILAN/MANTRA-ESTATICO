@@ -1,185 +1,220 @@
-# 🎉 MANTRA - Plataforma Inteligente de Gestión de Eventos y Comunidad
+# 🎉 MANTRA - Plataforma de Gestión de Eventos (Versión Estática)
 
-## 📖 Descripción General
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-181717?style=flat&logo=github)](https://pages.github.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat&logo=javascript)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5)](https://developer.mozilla.org/es/docs/Web/HTML)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-MANTRA es una plataforma web diseñada para conectar personas a través de eventos, intereses y comunidades digitales. El sistema permite a los usuarios descubrir actividades relevantes según sus preferencias, interactuar con otros participantes y establecer conexiones mediante herramientas sociales integradas.
+> **Plataforma social para gestión de eventos migrada a arquitectura 100% estática. Funciona completamente en el cliente sin dependencias de backend ni base de datos.**
 
-La propuesta surge a partir de la necesidad de contar con una solución que centralice la organización de eventos y facilite la interacción entre asistentes y organizadores dentro de un mismo entorno digital. A diferencia de las plataformas tradicionales de eventos, MANTRA incorpora funcionalidades sociales como comunidades, publicaciones y mensajería, permitiendo que la experiencia del usuario continúe antes, durante y después de cada evento.
-
-Dentro de la plataforma existen dos perfiles principales: organizadores y asistentes. Los organizadores pueden crear eventos, administrar información relacionada con sus actividades, monitorear la participación de los usuarios y gestionar su reputación mediante las reseñas recibidas. Por otro lado, los asistentes pueden explorar eventos personalizados, registrarse en actividades de interés, compartir experiencias con la comunidad y comunicarse directamente con otros usuarios.
-
----
-
-## 🚀 Versión Estática para GitHub Pages
-
-Esta versión del proyecto ha sido migrada a una arquitectura completamente estática, eliminando las dependencias de:
-- ❌ Backend Node.js/Express
-- ❌ Base de datos PostgreSQL
-- ❌ Servicio de hosting Render
-- ❌ Servicio de imágenes Cloudinary
-
-Ahora funciona 100% en el navegador usando:
-- ✅ HTML/CSS/JavaScript puro
-- ✅ Archivos JSON como base de datos
-- ✅ localStorage para persistencia de cambios
-- ✅ GitHub Pages como hosting gratuito y permanente
+🔗 **[🚀 Ver Demo en Vivo (GitHub Pages)](https://TU-USUARIO.github.io/mantra/)** | 📂 **[Ver Versión con Backend](https://github.com/TU-USUARIO/mantra-backend)**
 
 ---
 
-## 🎯 Objetivo General
+## 📖 Sobre el Proyecto
 
-Diseñar e implementar una plataforma digital para la gestión inteligente de eventos denominada MANTRA, capaz de conectar organizadores y asistentes mediante herramientas de administración, comunicación e interacción social, apoyándose en una base de datos relacional segura, consistente y escalable.
+MANTRA es una plataforma web que conecta personas a través de eventos, intereses y comunidades digitales. Lo que comenzó como un proyecto con backend Node.js/Express y base de datos PostgreSQL, evolucionó hacia una **arquitectura completamente estática** que funciona 100% en el navegador.
 
----
-
-# 🛠️ Tecnologías Implementadas
-
-### Frontend
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Bootstrap
-
-### Almacenamiento
-- Archivos JSON (datos iniciales)
-- localStorage (persistencia de cambios)
-
-### Hosting
-- GitHub Pages
+### 💡 ¿Por qué una versión estática?
+Esta migración demuestra la capacidad de **adaptación arquitectónica** y optimización de recursos:
+- ✅ **Sin costos de hosting**: GitHub Pages gratuito y permanente.
+- ✅ **Cero dependencias de servidor**: Sin Node.js, sin PostgreSQL, sin Render.
+- ✅ **Rendimiento máximo**: Carga instantánea desde CDN.
+- ✅ **Mantenimiento simplificado**: Sin despliegues de backend, sin migraciones de BD.
 
 ---
 
-# ⚙️ Funcionalidades Principales
+## 🛠️ Stack Tecnológico
 
-## 👤 Gestión de Usuarios
+| Categoría | Tecnologías |
+| :--- | :--- |
+| **Frontend** | HTML5, CSS3, JavaScript (ES6+), Bootstrap |
+| **Almacenamiento** | JSON (datos iniciales) + localStorage (persistencia) |
+| **Arquitectura** | Client-side rendering (CSR) puro |
+| **Data Layer** | Sistema personalizado de gestión de datos en JS (`data-layer.js`) |
+| **Hosting** | GitHub Pages |
+| **Imágenes** | Base64 embebido / localStorage |
 
-- Registro de usuarios (asistidor y organizador).
-- Inicio de sesión.
-- Gestión de perfil (foto, biografía, intereses).
-- Diferenciación entre asistentes, organizadores y owner.
+---
 
-## 🎉 Gestión de Eventos
+## ✨ Funcionalidades Principales
 
-- Creación de eventos con imagen promocional.
-- Eliminación de eventos.
-- Consulta de eventos en feed.
+### 👤 **Gestión de Usuarios**
+- Registro dual (asistentes y organizadores).
+- Autenticación basada en archivos JSON.
+- Perfiles personalizables con foto y biografía.
+- Sistema de roles (Usuario, Organizador, Owner).
+
+### 🎉 **Gestión de Eventos**
+- CRUD completo de eventos con imagen promocional.
 - Clasificación por categorías.
-- Confirmación de asistencia.
+- Sistema de confirmación de asistencia.
+- Reseñas y calificaciones (1-5 estrellas) con cálculo de reputación.
 
-## ⭐ Sistema de Reseñas
+### 🤝 **Capa Social Completa**
+- **Comunidad:** Muro de publicaciones con likes y comentarios.
+- **Chat:** Mensajería privada entre usuarios.
+- **Red Social:** Sistema de amistades, seguidores y notificaciones.
+- **Logros:** Gamificación de la experiencia.
 
-- Calificación de eventos (1-5 estrellas).
-- Comentarios de participantes.
-- Cálculo de reputación de organizadores.
-
-## 🤝 Comunidad
-
-- Publicaciones entre usuarios (texto e imagen).
-- Compartir experiencias.
-- Sistema de likes.
-- Comentarios en publicaciones.
-
-## 💬 Chat
-
-- Comunicación directa entre usuarios.
-- Mensajería privada.
-- Interacción entre asistentes y organizadores.
-
-## 👥 Zona Social
-
-- Sistema de amistad con solicitudes.
-- Notificaciones en tiempo real.
-- Sistema de logros.
-- Seguir a organizadores.
-
-## 📊 Dashboard de Organizador
-
-- Administración de eventos.
-- Visualización de estadísticas.
+### 📊 **Dashboard de Organizador**
+- Estadísticas de eventos.
 - Gestión de asistentes.
-- Control de publicaciones.
+- Control de reputación y publicaciones.
 
 ---
 
-# 🗄️ Estructura de Datos
+## 🗄️ Arquitectura de Datos
 
-La estructura de datos se organiza en archivos JSON dentro de la carpeta `data/`:
+El sistema reemplaza la base de datos relacional con **19 archivos JSON** organizados en la carpeta `data/`, replicando la estructura lógica del modelo relacional original:
 
-| Archivo | Descripción |
-|---------|-------------|
-| `usuarios.json` | Usuarios del sistema |
-| `organizadores.json` | Perfiles de organizador |
-| `participantes.json` | Perfiles de asistente |
-| `eventos.json` | Eventos publicados |
-| `categorias.json` | Categorías de eventos |
-| `evento_categorias.json` | Relación eventos-categorías |
-| `asistencias.json` | Confirmaciones de asistencia |
-| `resenas.json` | Reseñas de eventos |
-| `comentarios_evento.json` | Comentarios en eventos |
-| `publicaciones.json` | Publicaciones de comunidad |
-| `comentarios_publicacion.json` | Comentarios en publicaciones |
-| `likes.json` | Likes en publicaciones |
-| `conversaciones.json` | Conversaciones de chat |
-| `mensajes.json` | Mensajes de chat |
-| `amistades.json` | Relaciones de amistad |
-| `notificaciones.json` | Notificaciones del sistema |
-| `logros.json` | Logros de usuarios |
-| `seguidores.json` | Seguidores de organizadores |
-| `preferencias.json` | Preferencias de usuarios |
+```text
+data/
+├── usuarios.json              # Autenticación y usuarios
+├── organizadores.json         # Perfiles de organizador
+├── participantes.json         # Perfiles de asistente
+├── eventos.json               # Eventos publicados
+├── categorias.json            # Categorías disponibles
+├── asistencias.json           # Confirmaciones de asistencia
+├── resenas.json               # Calificaciones y comentarios
+├── publicaciones.json         # Muro de comunidad
+├── conversaciones.json        # Chats activos
+├── mensajes.json              # Historial de mensajes
+├── amistades.json             # Relaciones sociales
+├── notificaciones.json        # Sistema de alertas
+├── logros.json                # Gamificación
+└── ... (6 archivos más de relaciones)
+```
+**Persistencia:** Los cambios se guardan en `localStorage` del navegador, manteniendo la sesión activa entre recargas.
 
 ---
 
-# 🔐 Credenciales de Prueba
+## ⚙️ Cómo Usar el Proyecto
 
-## Organizador
-- **Email:** user@example.com / **Password:** pass5
+### Opción 1: Demo en Vivo (Recomendado)
+Simplemente visita: **[https://TU-USUARIO.github.io/mantra/](https://TU-USUARIO.github.io/mantra/)**
 
+### Opción 2: Ejecutar Localmente
+```bash
+# 1. Clona el repositorio
+git clone https://github.com/TU-USUARIO/mantra.git
+cd mantra
 
-## Asistentes
-- **Email:** milan.ewok@gmail.com / **Password:** Julio121086
+# 2. Abre index.html en tu navegador
+# (O usa la extensión "Live Server" en VS Code para mejor experiencia)
+```
+*Nota: No requiere `npm install` ni configuración de servidor. Es 100% estático.*
+
 ---
 
-# 📱 Capturas de Pantalla
+## 🔐 Credenciales de Prueba
+
+### 👨‍💼 Organizador
+- **Email:** `user@example.com`
+- **Password:** `pass5`
+
+### 👥 Asistentes
+- **Email:** `milan.ewok@gmail.com`
+- **Password:** `Julio121086`
+
+---
+
+## 📂 Estructura del Proyecto
+
+```text
+mantra/
+├── index.html                    # 🏠 Landing + Login (Punto de entrada)
+├── feed-eventos.html             # 📋 Listado de eventos
+├── dashboard-organizador.html    # 📊 Panel de control
+├── comunidad.html                # 🤝 Muro social
+├── chat.html                     # 💬 Mensajería
+├── social.html                   # 👥 Red social (amistades)
+├── perfil.html                   # 👤 Gestión de perfil
+├── registro-asistidor.html       # 📝 Registro asistente
+├── registro-organizador.html     # 📝 Registro organizador
+├── usuario-db.html               # 🔧 Panel de owner
+├── data-layer.js                 # 🧠 Lógica de datos (reemplaza backend)
+├── data/                         # 📦 19 archivos JSON
+├── capturas/                     # 📸 Screenshots de la UI
+├── uploads/                      # 📁 Imágenes subidas (simuladas)
+└── README.md                     # 📄 Este archivo
+```
+
+---
+
+## 🧠 Retos de Ingeniería y Soluciones
+
+### 1️⃣ **Migración de Backend a Client-Side**
+- **Reto:** Reemplazar un backend Node.js/Express + PostgreSQL con 19 tablas relacionales.
+- **Solución:** Creación de `data-layer.js`, una capa de abstracción que simula consultas y operaciones CRUD usando JavaScript y JSON.
+- **Aprendizaje:** Comprensión profunda de cómo funcionan los ORMs y la importancia crítica de la separación de capas.
+
+### 2️⃣ **Persistencia sin Base de Datos**
+- **Reto:** Mantener los datos entre sesiones sin un servidor PostgreSQL.
+- **Solución:** Implementación de `localStorage` con serialización JSON y manejo de estados.
+- **Aprendizaje:** Limitaciones y ventajas del almacenamiento local vs bases de datos reales (trade-offs).
+
+### 3️⃣ **Gestión de Imágenes sin Servidor**
+- **Reto:** Almacenar imágenes de perfil y eventos sin un servicio como Cloudinary.
+- **Solución:** Conversión a Base64 y almacenamiento en localStorage.
+- **Aprendizaje:** Compromisos entre rendimiento, límite de almacenamiento del navegador y funcionalidad.
+
+### 4️⃣ **Relaciones Complejas en JSON**
+- **Reto:** Replicar relaciones N:M (eventos-categorías, usuarios-amigos) sin foreign keys.
+- **Solución:** Sistema de IDs referenciales y "joins" manuales en JavaScript.
+- **Aprendizaje:** Valor real de las bases de datos relacionales y su optimización interna.
+
+---
+
+## 🚀 Próximos Pasos y Mejoras Futuras
+
+1. **Migrar a Firebase/Supabase:** Mantener la arquitectura frontend pero con Backend-as-a-Service (BaaS) para persistencia real en la nube.
+2. **Implementar PWA:** Convertir la app en Progressive Web App con capacidad de funcionamiento offline (Service Workers).
+3. **Optimización de Almacenamiento:** Migrar de `localStorage` a `IndexedDB` para manejar mayor volumen de datos e imágenes sin bloquear el hilo principal.
+4. **Tests Automatizados:** Agregar Jest para validar la lógica de negocio en `data-layer.js`.
+
+---
+
+## 📊 Capturas de Pantalla
 
 <details>
-<summary><b>🖼️ Ver capturas de pantalla</b></summary>
-
+<summary><b>🖼️ Click para ver galería completa</b></summary>
 <br>
 
 <table>
 <tr>
 <td align="center">
 <b>Landing Page</b><br><br>
-<img src="capturas/landing.png" width="450">
+<img src="capturas/landing.png" width="400">
 </td>
 
 <td align="center">
 <b>Feed de Eventos</b><br><br>
-<img src="capturas/feed-eventos.png" width="450">
+<img src="capturas/feed-eventos.png" width="400">
 </td>
 </tr>
 
 <tr>
 <td align="center">
 <b>Dashboard Organizador</b><br><br>
-<img src="capturas/dashborad-organizador.png" width="450">
+<img src="capturas/dashborad-organizador.png" width="400">
 </td>
 
 <td align="center">
 <b>Comunidad</b><br><br>
-<img src="capturas/comunidad.png" width="450">
+<img src="capturas/comunidad.png" width="400">
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<b>Chat</b><br><br>
-<img src="capturas/chat.png" width="450">
+<b>Chat en Tiempo Real</b><br><br>
+<img src="capturas/chat.png" width="400">
 </td>
 
 <td align="center">
-<b>Perfil</b><br><br>
-<img src="capturas/perfil.png" width="450">
+<b>Perfil de Usuario</b><br><br>
+<img src="capturas/perfil.png" width="400">
 </td>
 </tr>
 </table>
@@ -188,72 +223,25 @@ La estructura de datos se organiza en archivos JSON dentro de la carpeta `data/`
 
 ---
 
-# 🎥 Entrevista
+## 📚 Documentación Adicional
 
-📄 Documento de entrevista:
-
-[Ver Entrevista](Entrevista_MANTRA.pdf)
+- 📄 [Entrevista de Requerimientos](./Entrevista_MANTRA.pdf)
 
 ---
 
-# 👨‍💻 Autores
+## 👨‍💻 Autores
 
-**Julio Milan y Armenta Misael**
+- **Julio Milan** - [GitHub](https://github.com/TU-USUARIO) | [LinkedIn](https://linkedin.com/in/TU-USUARIO-LINKEDIN)
+- **Misael Armenta** - [GitHub](https://github.com/USUARIO-MISAEL)
 
-Proyecto desarrollado para la asignatura de Bases de Datos.
-
----
-
-# 📚 Conclusiones
-
-El desarrollo de MANTRA permitió aplicar de manera integral los conceptos fundamentales de análisis, diseño e implementación de bases de datos relacionales. Durante el proyecto se construyó un sistema capaz de gestionar usuarios, eventos, comunidades, reseñas y comunicaciones entre participantes, manteniendo siempre la integridad y seguridad de la información.
-
-La migración a una arquitectura estática demuestra la versatilidad del proyecto, permitiendo su despliegue en GitHub Pages sin dependencia de servidores backend, manteniendo toda la funcionalidad original mediante el uso de JSON y localStorage.
+> **Proyecto desarrollado demostrando evolución arquitectónica: de base de datos relacional a aplicación estática escalable y portable.**
 
 ---
 
-# 🚀 Despliegue en GitHub Pages
+## 💡 Conclusión Técnica
 
-1. Sube este repositorio a GitHub.
-2. Ve a **Settings** → **Pages**.
-3. En **Source**, selecciona la rama `main` y carpeta `/ (root)`.
-4. Guarda los cambios.
-5. Tu sitio estará disponible en `https://tu-usuario.github.io/mantra/`
+Este proyecto demuestra **versatilidad arquitectónica**: 
+- **Versión original:** Backend robusto con PostgreSQL, ideal para producción y datos reales.
+- **Versión estática:** Solución ligera, gratuita y portable, ideal para demos, portafolio y entornos con restricciones de infraestructura.
 
----
-
-# 🔄 Arquitectura del Proyecto
-
-```
-mantra/
-├── data/                    # Archivos JSON con datos iniciales
-│   ├── usuarios.json
-│   ├── eventos.json
-│   ├── categorias.json
-│   └── ... (19 archivos JSON)
-├── data-layer.js           # Capa de datos (reemplaza backend)
-├── index.html              # Landing page + Login
-├── feed-eventos.html       # Feed de eventos
-├── comunidad.html          # Comunidad
-├── chat.html               # Chat
-├── social.html             # Zona social
-├── perfil.html             # Perfil de usuario
-├── dashboard-organizador.html  # Dashboard organizador
-├── usuario-db.html         # Panel de owner
-├── registro-asistidor.html # Registro asistidor
-├── registro-organizador.html   # Registro organizador
-└── README.md               # Este archivo
-```
-
----
-
-# 📝 Notas sobre la Migración
-
-Esta versión estática mantiene todas las funcionalidades del proyecto original:
-
-- **Login simulado:** Los usuarios se validan contra `data/usuarios.json`
-- **Persistencia:** Los cambios se guardan en `localStorage` del navegador
-- **Imágenes:** Se convierten a Base64 y se almacenan localmente
-- **Sin backend:** Toda la lógica se ejecuta en el navegador mediante `data-layer.js`
-
-⚠️ **Importante:** Los datos se reinician si el usuario limpia el localStorage del navegador. Para una versión con persistencia real, se recomienda usar Firebase, Supabase o similar.
+Ambas versiones cumplen los mismos requerimientos funcionales, probando que un buen diseño de software permite **adaptarse a diferentes restricciones** sin perder la esencia de la funcionalidad.
