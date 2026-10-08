@@ -131,7 +131,7 @@ git push -u origin main
 
 ---
 
-## 🎯 Puntos Clave para tu Profesor
+## 🎯 Puntos Clave
 
 ### Arquitectura
 - **Antes:** Node.js + Express + PostgreSQL + Render + Cloudinary
@@ -200,5 +200,3 @@ Si tienes problemas:
 - `data/*.json` - Estructura de datos
 
 ---
-
-**¡Buena suerte con tu presentación! 🎉**
