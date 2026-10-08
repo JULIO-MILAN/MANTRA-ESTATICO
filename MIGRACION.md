@@ -313,7 +313,6 @@ La migración de MANTRA a una arquitectura estática ha sido exitosa. El proyect
 - ✅ Es más fácil de mantener
 - ✅ No tiene costos de hosting
 
-La única limitación es la persistencia de datos entre sesiones, lo cual es aceptable para un proyecto académico y se puede resolver fácilmente con Firebase o Supabase si se requiere en el futuro.
 
 ---
 
