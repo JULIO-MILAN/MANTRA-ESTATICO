@@ -3,15 +3,14 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-181717?style=flat&logo=github)](https://pages.github.com/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat&logo=javascript)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5)](https://developer.mozilla.org/es/docs/Web/HTML)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > **Plataforma social para gestión de eventos migrada a arquitectura 100% estática. Funciona completamente en el cliente sin dependencias de backend ni base de datos.**
 
-🔗 **[🚀 Ver Demo en Vivo (GitHub Pages)](https://TU-USUARIO.github.io/mantra/)** | 📂 **[Ver Versión con Backend](https://github.com/TU-USUARIO/mantra-backend)**
+🔗 **[🚀 Ver Demo en Vivo (GitHub Pages)](https://julio-milan.github.io/MANTRA-ESTATICO/)** | 📂 **[Ver Versión con Backend](https://github.com/JULIO-MILAN/MANTRA/)**
 
 ---
 
-## 📖 Sobre el Proyecto
+##  Sobre el Proyecto
 
 MANTRA es una plataforma web que conecta personas a través de eventos, intereses y comunidades digitales. Lo que comenzó como un proyecto con backend Node.js/Express y base de datos PostgreSQL, evolucionó hacia una **arquitectura completamente estática** que funciona 100% en el navegador.
 
@@ -24,7 +23,7 @@ Esta migración demuestra la capacidad de **adaptación arquitectónica** y opti
 
 ---
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 
 | Categoría | Tecnologías |
 | :--- | :--- |
@@ -37,34 +36,34 @@ Esta migración demuestra la capacidad de **adaptación arquitectónica** y opti
 
 ---
 
-## ✨ Funcionalidades Principales
+##  Funcionalidades Principales
 
-### 👤 **Gestión de Usuarios**
+###  **Gestión de Usuarios**
 - Registro dual (asistentes y organizadores).
 - Autenticación basada en archivos JSON.
 - Perfiles personalizables con foto y biografía.
 - Sistema de roles (Usuario, Organizador, Owner).
 
-### 🎉 **Gestión de Eventos**
+###  **Gestión de Eventos**
 - CRUD completo de eventos con imagen promocional.
 - Clasificación por categorías.
 - Sistema de confirmación de asistencia.
 - Reseñas y calificaciones (1-5 estrellas) con cálculo de reputación.
 
-### 🤝 **Capa Social Completa**
+###  **Capa Social Completa**
 - **Comunidad:** Muro de publicaciones con likes y comentarios.
 - **Chat:** Mensajería privada entre usuarios.
 - **Red Social:** Sistema de amistades, seguidores y notificaciones.
 - **Logros:** Gamificación de la experiencia.
 
-### 📊 **Dashboard de Organizador**
+###  **Dashboard de Organizador**
 - Estadísticas de eventos.
 - Gestión de asistentes.
 - Control de reputación y publicaciones.
 
 ---
 
-## 🗄️ Arquitectura de Datos
+##  Arquitectura de Datos
 
 El sistema reemplaza la base de datos relacional con **19 archivos JSON** organizados en la carpeta `data/`, replicando la estructura lógica del modelo relacional original:
 
@@ -89,7 +88,7 @@ data/
 
 ---
 
-## ⚙️ Cómo Usar el Proyecto
+##  Cómo Usar el Proyecto
 
 ### Opción 1: Demo en Vivo (Recomendado)
 Simplemente visita: **[https://TU-USUARIO.github.io/mantra/](https://TU-USUARIO.github.io/mantra/)**
@@ -107,19 +106,19 @@ cd mantra
 
 ---
 
-## 🔐 Credenciales de Prueba
+##  Credenciales de Prueba
 
-### 👨‍💼 Organizador
+###  Organizador
 - **Email:** `user@example.com`
 - **Password:** `pass5`
 
-### 👥 Asistentes
+###  Asistentes
 - **Email:** `milan.ewok@gmail.com`
 - **Password:** `Julio121086`
 
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```text
 mantra/
@@ -142,7 +141,7 @@ mantra/
 
 ---
 
-## 🧠 Retos de Ingeniería y Soluciones
+##  Retos de Ingeniería y Soluciones
 
 ### 1️⃣ **Migración de Backend a Client-Side**
 - **Reto:** Reemplazar un backend Node.js/Express + PostgreSQL con 19 tablas relacionales.
@@ -166,7 +165,7 @@ mantra/
 
 ---
 
-## 🚀 Próximos Pasos y Mejoras Futuras
+##  Próximos Pasos y Mejoras Futuras
 
 1. **Migrar a Firebase/Supabase:** Mantener la arquitectura frontend pero con Backend-as-a-Service (BaaS) para persistencia real en la nube.
 2. **Implementar PWA:** Convertir la app en Progressive Web App con capacidad de funcionamiento offline (Service Workers).
@@ -229,10 +228,9 @@ mantra/
 
 ---
 
-## 👨‍💻 Autores
+## 👨‍💻 Autor
 
-- **Julio Milan** - [GitHub](https://github.com/TU-USUARIO) | [LinkedIn](https://linkedin.com/in/TU-USUARIO-LINKEDIN)
-- **Misael Armenta** - [GitHub](https://github.com/USUARIO-MISAEL)
+- **Julio Milan** - [GitHub](https://github.com/julio-milan) |
 
 > **Proyecto desarrollado demostrando evolución arquitectónica: de base de datos relacional a aplicación estática escalable y portable.**
 
