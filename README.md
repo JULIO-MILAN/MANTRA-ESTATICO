@@ -83,10 +83,24 @@ data/
 ├── notificaciones.json        # Sistema de alertas
 ├── logros.json                # Gamificación
 └── ... (6 archivos más de relaciones)
+
+
 ```
-**Persistencia:** Los cambios se guardan en `localStorage` del navegador, manteniendo la sesión activa entre recargas.
+###  Diagrama del Modelo de Datos
+La lógica de `data-layer.js` utiliza IDs referenciales para simular `JOIN`s y claves foráneas, manteniendo la integridad lógica del siguiente modelo:
+
+<br>
+<table>
+<tr>
+<td align="center">
+<b>EER</b><br><br>
+<img src="https://github.com/user-attachments/assets/b353fb68-700c-46cc-b2f5-3784f5105ce4" width="400">
+</td>
+</table>
 
 ---
+
+**Persistencia:** Los cambios se guardan en `localStorage` del navegador, manteniendo la sesión activa entre recargas.
 
 ##  Cómo Usar el Proyecto
 
